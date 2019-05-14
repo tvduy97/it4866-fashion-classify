@@ -9,6 +9,10 @@ Cài Tensorflow:
 ```
 python -m pip install tensorflow==2.0.0-alpha0
 ```
+Cài Pilow:
+```
+python -m pip install Pillow
+```
 
 Tạo Django project:
 ```
