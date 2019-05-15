@@ -1,31 +1,52 @@
-Các lệnh liên quan:
+#Cài đặt các thư viện:
 
-Cài Django:
+##Cài Django:
 ```
 python -m pip install Django
 ```
 
-Cài Tensorflow:
+##Cài Tensorflow:
 ```
 python -m pip install tensorflow==2.0.0-alpha0
 ```
-Cài Pilow:
+
+##Cài Pilow:
 ```
 python -m pip install Pillow
 ```
 
-Tạo Django project:
+##Cài Opencv:
+```
+python -m pip install opencv-python
+```
+
+##Cài Numpy:
+```
+python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+```
+
+
+#Chạy project:
+(Đảm bảo rằng đăng ở thư mục project)
+
+##Run server:
+```
+python manage.py runserver
+```
+
+##Truy cập localhost:8000/myapp
+Thực hiện upload ảnh và phân loại qua giao diện web
+
+
+
+#Các lệnh khi khởi tạo project:
+
+##Tạo Django project:
 ```
 django-admin startproject fashion_classify
 ```
 
-Run server:
-```
-cd fashion_classify
-python manage.py runserver
-```
-
-Create app:
+##Create app:
 ```
 python manage.py startapp myapp
 ```

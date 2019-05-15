@@ -36,7 +36,7 @@ model.compile(optimizer='adam',
               metrics=['accuracy'])
 
 # Train the model
-model.fit(train_images, train_labels, epochs=5)
+model.fit(train_images, train_labels, epochs=80)
 # Save model
 model.save('model')
 
